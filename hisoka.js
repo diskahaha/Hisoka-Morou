@@ -541,7 +541,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
             }
             break
             case 'sc': {
-                m.reply('Script : https://github.com/DikaArdnt/Hisoka-Morou\n\n Dont Forget Give Star\n\nDonate : 6281615075793 (Link Aja)\nSaweria : https://saweria.co/DikaArdnt\nPaypal : https://www.paypal.me/Cakhaho\n\n Dont Forget Donate')
+                m.reply('Script : 𝕭𝖔𝖙 • Andii ༢࿔ྀ')
             }
             break
             case 'chat': {
@@ -835,7 +835,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
                 if (!m.isGroup) throw mess.group
                 if (!isBotAdmins) throw mess.botAdmin
                 if (!isAdmins) throw mess.admin
-let teks = `══✪〘 *👥 Tag All* 〙✪══
+let teks = `══✪〘 *𝕭𝖔𝖙 • Andii ༢࿔ྀ* 〙✪══
  
  ➲ *Pesan : ${q ? q : 'kosong'}*\n\n`
                 for (let mem of participants) {
@@ -851,7 +851,7 @@ let teks = `══✪〘 *👥 Tag All* 〙✪══
             hisoka.sendMessage(m.chat, { text : q ? q : '' , mentions: participants.map(a => a.id)}, { quoted: m })
             }
             break
-               case 'totag': {
+               case 'andii': {
                if (!m.isGroup) throw mess.group
                if (!isBotAdmins) throw mess.botAdmin
                if (!isAdmins) throw mess.admin
@@ -2777,9 +2777,8 @@ let capt = `⭔ Title: ${judul}
 │⭔ ${prefix}editinfo [option]
 │⭔ ${prefix}add @user
 │⭔ ${prefix}kick @user
+│⭔ ${prefix}tagall
 │⭔ ${prefix}hidetag [text]
-│⭔ ${prefix}tagall [text]
-│⭔ ${prefix}totag [reply]
 │⭔ ${prefix}antilink [on/off]
 │⭔ ${prefix}mute [on/off]
 │⭔ ${prefix}promote @user
@@ -2790,7 +2789,7 @@ let capt = `⭔ Title: ${judul}
 │⭔ ${prefix}cekvote
 │⭔ ${prefix}hapusvote
 │
-└───────⭓
+└───────⭓𝕭𝖔𝖙 • Andii ༢࿔ྀ
 
 ┌──⭓ *Webzone Menu*
 │
@@ -2803,7 +2802,7 @@ let capt = `⭔ Title: ${judul}
 │⭔ ${prefix}webtoons
 │⭔ ${prefix}drakor
 │
-└───────⭓
+└───────⭓𝕭𝖔𝖙 • Andii ༢࿔ྀ
 
 
 ┌──⭓ *Downloader Menu*
@@ -2824,7 +2823,7 @@ let capt = `⭔ Title: ${judul}
 │⭔ ${prefix}joox [query]
 │⭔ ${prefix}soundcloud [url]
 │
-└───────⭓
+└───────⭓𝕭𝖔𝖙 • Andii ༢࿔ྀ
 
 ┌──⭓ *Search Menu*
 │
@@ -2839,7 +2838,7 @@ let capt = `⭔ Title: ${judul}
 │⭔ ${prefix}ringtone [query]
 │⭔ ${prefix}stalk [option] [query]
 │
-└───────⭓
+└───────⭓𝕭𝖔𝖙 • Andii ༢࿔ྀ
 
 ┌──⭓ *Random Menu*
 │
@@ -2861,7 +2860,7 @@ let capt = `⭔ Title: ${judul}
 │⭔ ${prefix}trap (nsfw)
 │⭔ ${prefix}blowjob (nsfw)
 │
-└───────⭓
+└───────⭓𝕭𝖔𝖙 • Andii ༢࿔ྀ
 
 ┌──⭓ *Text Pro Menu*
 │
@@ -2897,7 +2896,7 @@ let capt = `⭔ Title: ${judul}
 │⭔ ${prefix}blackpink
 │⭔ ${prefix}gluetext
 │
-└───────⭓
+└───────⭓𝕭𝖔𝖙 • Andii ༢࿔ྀ
 
 ┌──⭓ *Photo Oxy Menu*
 │
@@ -2914,7 +2913,7 @@ let capt = `⭔ Title: ${judul}
 │⭔ ${prefix}harrypotter
 │⭔ ${prefix}retrolol
 │
-└───────⭓
+└───────⭓𝕭𝖔𝖙 • Andii ༢࿔ྀ
 
 ┌──⭓ *Ephoto Menu*
 │
@@ -2928,7 +2927,7 @@ let capt = `⭔ Title: ${judul}
 │⭔ ${prefix}igcertificate
 │⭔ ${prefix}ytcertificate
 │
-└───────⭓
+└───────⭓𝕭𝖔𝖙 • Andii ༢࿔ྀ
 
 ┌──⭓ *Fun Menu*
 │
@@ -2947,7 +2946,7 @@ let capt = `⭔ Title: ${judul}
 │⭔ ${prefix}math [mode]
 │⭔ ${prefix}suitpvp [@tag]
 │
-└───────⭓
+└───────⭓𝕭𝖔𝖙 • Andii ༢࿔ྀ
 
 ┌──⭓ *Primbon Menu*
 │
@@ -2982,7 +2981,7 @@ let capt = `⭔ Title: ${judul}
 │⭔ ${prefix}zodiak
 │⭔ ${prefix}shio
 │
-└───────⭓
+└───────⭓𝕭𝖔𝖙 • Andii ༢࿔ྀ
 
 ┌──⭓ *Convert Menu*
 │
@@ -3005,7 +3004,7 @@ let capt = `⭔ Title: ${judul}
 │⭔ ${prefix}styletext
 │⭔ ${prefix}smeme
 │
-└───────⭓
+└───────⭓𝕭𝖔𝖙 • Andii ༢࿔ྀ
 
 ┌──⭓ *Main Menu*
 │
@@ -3020,7 +3019,7 @@ let capt = `⭔ Title: ${judul}
 │⭔ ${prefix}listonline
 │⭔ ${prefix}speedtest
 │
-└───────⭓
+└───────⭓𝕭𝖔𝖙 • Andii ༢࿔ྀ
 
 ┌──⭓ *Database Menu*
 │
@@ -3033,7 +3032,7 @@ let capt = `⭔ Title: ${judul}
 │⭔ ${prefix}getmsg
 │⭔ ${prefix}delmsg
 │
-└───────⭓
+└───────⭓𝕭𝖔𝖙 • Andii ༢࿔ྀ
 
 ┌──⭓ *Anonymous Menu*
 │
@@ -3042,7 +3041,7 @@ let capt = `⭔ Title: ${judul}
 │⭔ ${prefix}next
 │⭔ ${prefix}keluar
 │
-└───────⭓
+└───────⭓𝕭𝖔𝖙 • Andii ༢࿔ྀ
 
 ┌──⭓ *Islamic Menu*
 │
@@ -3051,7 +3050,7 @@ let capt = `⭔ Title: ${judul}
 │⭔ ${prefix}alquran
 │⭔ ${prefix}tafsirsurah
 │
-└───────⭓
+└───────⭓𝕭𝖔𝖙 • Andii ༢࿔ྀ
 
 ┌──⭓ *Voice Changer*
 │
@@ -3067,7 +3066,7 @@ let capt = `⭔ Title: ${judul}
 │⭔ ${prefix}slow
 │⭔ ${prefix}tupai
 │
-└───────⭓
+└───────⭓𝕭𝖔𝖙 • Andii ༢࿔ྀ
 
 ┌──⭓ *Owner Menu*
 │
@@ -3084,7 +3083,7 @@ let capt = `⭔ Title: ${judul}
 │⭔ ${prefix}setmenu [option]
 │⭔ ${prefix}anticall [on/off]
 │
-└───────⭓`
+└───────⭓𝕭𝖔𝖙 • Andii ༢࿔ྀ`
                 let btn = [{
                                 urlButton: {
                                     displayText: 'Source Code',
