@@ -19,7 +19,7 @@ global.APIKeys = {
 
 // Other
 global.owner = ['6281251549899','6281251549899','6281251549899','6281251549899']
-global.premium = ['6281251549899']
+global.premium = ['628125154999']
 global.packname = 'DaniBotz'
 global.author = 'Dani Official'
 global.sessionName = 'hisoka'
